@@ -44,7 +44,7 @@
     }
 
     function initClient() {
-      var API_KEY = 'AIzaSyCNuVQ1j0W8npTGyiLE0FG_TSa4e2gdD6g';  // TODO: Update placeholder with desired API key.
+      var API_KEY = 'AIzaSyBmIDHr5-JdQH8LkjPkke5KHcIeSvXsBkE';  // TODO: Update placeholder with desired API key.
 
       var CLIENT_ID = '858970733453-1d621rotvv522b66tschsj1hdjcaeanr.apps.googleusercontent.com';  // TODO: Update placeholder with desired client ID.
 
@@ -99,7 +99,14 @@
     <body>
         <div>
             <h1>hello world_v05</h1>
-            <button>Run It!</button>
+            <button id="btn">Run It!</button>
+            <script>
+            document.getElementById("btn").addEventListener("click",doStuff);
+
+            function doStuff(){
+
+            }
+            </script>
         </div>
     </body>
 </html>
